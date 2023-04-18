@@ -36,7 +36,7 @@ git clone ${REPO}.git
 }
 
 # fetch configuration
-URL='https://raw.githubusercontent.com/hitoru/rEFInd/main/hitoru.conf'
+URL='https://raw.githubusercontent.com/hitoru/rEFInd/master/hitoru.conf'
 curl $URL -o hitoru.conf
 sudo cp -af hitoru.conf ${DIR}/hitoru.conf && rm -f hitoru.conf
 echo "include hitoru.conf" >/dev/null | sudo tee -a ${DIR}/refind.conf
