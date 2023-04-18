@@ -1,9 +1,9 @@
-**rEFInd**
+**Usage**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/h1toru/rEFInd-Installer/main/refind-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/h1toru/rEFInd-Installer/master/refind-install.sh | bash
 ```
 
-**Config & Theme**
+**Config & Theme (Recommended)**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/h1toru/rEFInd-Installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/h1toru/rEFInd-Installer/master/install.sh | bash
 ```
